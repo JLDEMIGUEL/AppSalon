@@ -9,6 +9,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 class Email
 {
 
+    
     public $email;
     public $nombre;
     public $token;
