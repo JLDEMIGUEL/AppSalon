@@ -44,7 +44,7 @@ class Email
         $contenido="<html>";
         $contenido.="<p><strong>Hola ".$this->nombre.".</strong> Has creado tu cuenta en AppSalon,
         solo debes confirmarla presionando el siguiente enlace.</p>";
-        $contenido.="<p>Presiona aqui: <a href='http://localhost:3000/confirmar-cuenta?token=".$this->token."'>Confirmar cuenta</a></p>";
+        $contenido.="<p>Presiona aqui: <a href='https://appsalon-jldemiguel.herokuapp.com/confirmar-cuenta?token=".$this->token."'>Confirmar cuenta</a></p>";
         $contenido.="<p>Si no solicitaste esta cuenta, ignore el mensaje</p>";
         $contenido.="</html>";
 
