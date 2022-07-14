@@ -11,7 +11,7 @@ use Model\Usuario;
 class APIController{
     public static function index(){
         $servicios = Servicio::all();
-        echo (json_encode($servicios));
+        echo (json_encode($servicios, JSON_UNESCAPED_UNICODE));
     }
 
     public static function guardar(){
@@ -36,7 +36,7 @@ class APIController{
             $citaServ->guardar();
         }
 
-        echo (json_encode(['resultado'=>$resultado]));
+        echo (json_encode(['resultado'=>$resultado], JSON_UNESCAPED_UNICODE));
     }
 
     public static function eliminar(){
