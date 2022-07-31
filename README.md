@@ -12,6 +12,7 @@ Hash de los passwords de los usuarios.
 Panel de administración del admin.
 Gestión de cita del cliente.
 Uso de Fetch API para la lectura y reserva de los servicios.
+Se ha utilizado SASS y NPM.
 
 
 https://appsalon-jldemiguel.herokuapp.com/
